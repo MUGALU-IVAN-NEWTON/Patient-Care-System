@@ -68,7 +68,7 @@ public:
 
     bool isEmpty() { return heap.empty(); }
 
-    // Returns all patients in the heap
+    
     vector<Patient> getAllPatients() {
         return heap;
     }
